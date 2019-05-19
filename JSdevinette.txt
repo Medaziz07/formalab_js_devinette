@@ -1,0 +1,42 @@
+var val = Math.floor(Math.random() * 101);
+var nbEssai = 1;
+var x = new Boolean("true");
+
+
+
+    
+
+do {
+    var nb = Number(prompt("entrer un nombre:"));
+
+    if (nb < val) {
+        console.log("plus grand");
+    }
+    else if (nb > val) {
+        console.log("plus petit");
+
+    }
+    else {
+        console.log("bravo !");
+    }
+
+    nbEssai++;
+
+} while ((nbEssai <= 10) && (val != nb));
+
+if (nbEssai > 10){
+    console.log("rak matal3t'heech"); 
+    
+}
+var reponse =prompt("jouer encore ?:");
+
+i==0;
+
+    do {
+    reponse
+    if (a==x){
+
+    }
+}while (a!=x)
+console.log("au revoir")
+   
